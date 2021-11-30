@@ -10,6 +10,7 @@
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -31,91 +32,97 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane1" min="-2" pref="368" max="-2" attributes="0"/>
-                  <Component id="btnCero" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="btnCuatro" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnCinco" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="btnSeis" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnSiete" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnTAN" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnBorrarTodo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="lbnDecimal" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="btnUno" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="btnDos" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="btnTres" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btnCuatro" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnCinco" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnSeis" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="btnSiete" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="btnCero" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="btnPunto" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnUno" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="btnIgual" min="-2" pref="67" max="-2" attributes="0"/>
+                              <Component id="btnDos" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnTres" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnFactorial" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnBorrar" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="btnAutor" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnMas" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnMenos" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnMultiplicacion" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="btnOcho" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnNueve" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="btnMas" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnOcho" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="btnMenos" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnNueve" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="btnMultiplicacion" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="btnDivision" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="btnPorrcentaje" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="btnTAN" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnPunto" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                       <Component id="btnCOS" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="btnSEN" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="btnFactorial" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
-                                      <Component id="btnBorrar" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnLogaritmo10" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="btnAlCuadrado" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Component id="btnPotencia" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="btnBorrarTodo" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Component id="btnSEN" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="btnLogaritmo" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                      <Component id="lbnHexadecimal" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="btnLogaritmo" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="btnLogaritmo10" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="btnRaiz" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                      <Component id="lbnBinario" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
+                              <Component id="btnDivision" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnPorrcentaje" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnRaiz" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnIgual" min="-2" pref="67" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane1" alignment="0" min="-2" pref="370" max="-2" attributes="0"/>
                       </Group>
+                      <EmptySpace pref="28" max="32767" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="lbnBinario" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="btnAutor" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="lbnDecimal" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="lbnHexadecimal" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="119" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -123,91 +130,70 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="69" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="66" max="-2" attributes="0"/>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnMas" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMenos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMultiplicacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnDivision" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnPorrcentaje" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnRaiz" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnIgual" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="btnUno" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="btnDos" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnSEN" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnLogaritmo" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" attributes="0">
-                              <Component id="btnCuatro" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="btnCinco" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btnSeis" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnTres" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnPotencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnAlCuadrado" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btnCero" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lbnBinario" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnAutor" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="lbnDecimal" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="lbnHexadecimal" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btnSiete" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnPunto" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnIgual" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                      </Group>
+                  <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="btnOcho" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="btnNueve" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btnMas" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnMenos" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnMultiplicacion" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btnDivision" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnPorrcentaje" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btnTAN" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnCOS" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnSEN" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btnLogaritmo" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnLogaritmo10" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnRaiz" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btnAlCuadrado" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnPotencia" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnBorrarTodo" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btnFactorial" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnBorrar" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
+                      <Component id="lbnBinario" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnOcho" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnNueve" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnPunto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnCOS" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnLogaritmo10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnCuatro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnCinco" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnSeis" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnSiete" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnTAN" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnBorrarTodo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbnDecimal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnCero" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnUno" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnDos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnTres" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnFactorial" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnBorrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnAutor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="lbnHexadecimal" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -391,6 +377,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnPotencia">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="x^y"/>
       </Properties>
       <Events>
@@ -439,7 +428,7 @@
         <Component class="javax.swing.JTextArea" name="txtDatos">
           <Properties>
             <Property name="columns" type="int" value="20"/>
-            <Property name="rows" type="int" value="5"/>
+            <Property name="rows" type="int" value="2"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -472,6 +461,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCeroActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnAutor">
       <Properties>
